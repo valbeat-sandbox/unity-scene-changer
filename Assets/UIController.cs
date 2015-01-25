@@ -2,10 +2,28 @@
 using System.Collections;
 
 public class UIController : MonoBehaviour {
-	public GameObject menu = null;
+	public GameObject poseMenu = null;
+	public GameObject exitConfilmMenu = null;
+	public GameObject restartConfilmMenu = null;
 
-	void ShowMenu () {
-		Debug.Log("true");
-		menu.SetActive(true);
+	void ShowPoseMenu () {
+		poseMenu.SetActive(true);
+	}
+	void HidePoseMenu () {
+		poseMenu.SetActive(false);
+	}
+
+	void ShowExitConfilmMenu () {
+		exitConfilmMenu.SetActive(true);
+	}
+	void HideExitConfilmMenu () {
+		exitConfilmMenu.SetActive(false);
+	}
+
+	void ShowRestartConfilmMenu () {
+		restartConfilmMenu.SetActive(true);
+	}
+	void HideRestartConfilmMenu () {
+		restartConfilmMenu.SetActive(false);
 	}
 }
