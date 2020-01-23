@@ -1,2 +1,2 @@
-# SceneChanger
+# UnitySceneChanger
 
